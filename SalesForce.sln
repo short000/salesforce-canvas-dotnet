@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceOAuth", "SalesForceOAuth\SalesForceOAuth.csproj", "{A47FD28B-F46C-4A8C-8A0F-16297E7A00C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SalesForceOAuthExamples", "SalesForceOAuthExamples", "{DF504BE8-86A4-4BBA-9540-C2B072F2BCFD}"
+	ProjectSection(SolutionItems) = preProject
+		SalesForceOAuthExamples\ReadMe.pdf = SalesForceOAuthExamples\ReadMe.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasMvcHelloWorld", "SalesForceOAuthExamples\CanvasMvcHelloWorld\CanvasMvcHelloWorld.csproj", "{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasWebFormsHelloWorld", "SalesForceOAuthExamples\CanvasWebFormsHelloWorld\CanvasWebFormsHelloWorld.csproj", "{38A65C73-89F1-4B76-ADC1-32DE15863C35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A47FD28B-F46C-4A8C-8A0F-16297E7A00C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47FD28B-F46C-4A8C-8A0F-16297E7A00C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47FD28B-F46C-4A8C-8A0F-16297E7A00C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47FD28B-F46C-4A8C-8A0F-16297E7A00C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A65C73-89F1-4B76-ADC1-32DE15863C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A65C73-89F1-4B76-ADC1-32DE15863C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A65C73-89F1-4B76-ADC1-32DE15863C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A65C73-89F1-4B76-ADC1-32DE15863C35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A32B71EC-4B37-4FE8-87A2-EC0854CBDB48} = {DF504BE8-86A4-4BBA-9540-C2B072F2BCFD}
+		{38A65C73-89F1-4B76-ADC1-32DE15863C35} = {DF504BE8-86A4-4BBA-9540-C2B072F2BCFD}
+	EndGlobalSection
+EndGlobal
